@@ -1,11 +1,9 @@
-import { Button } from "@material-tailwind/react";
+import StickyNavBar from "./Components/StickyNavBar";
 
 function App() {
   return (
     <>
-      <div>
-        <Button>Button</Button>
-      </div>
+      <StickyNavBar />
     </>
   );
 }
