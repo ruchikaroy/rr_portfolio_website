@@ -3,7 +3,7 @@ import {
   MobileNav,
   Navbar,
   IconButton,
-  Card,
+  Button,
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 
@@ -59,9 +59,9 @@ const StickyNavBar = () => {
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
+            className="mr-4 cursor-pointer py-1.5 font-medium ml-5"
           >
-            Ruchika Roy
+            Portfolio
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
@@ -105,37 +105,74 @@ const StickyNavBar = () => {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
+        <MobileNav open={openNav} className="px-5">
           {navList}
           <div className="flex items-center gap-x-1"></div>
         </MobileNav>
       </Navbar>
-      <div className=" mx-auto max-w-screen-md py-12">
-        <Card className="mb-12 overflow-hidden m-10 ">
+      <div className="flex items-center m-10 text-center">
+        <Button className="bg-[#eea305] text-black rounded-full p-3 mr-3"></Button>
+        <Typography color="blue-gray" className="text-xl font-wei">
+          Ruchika Roy, Software Developer
+        </Typography>
+      </div>
+
+      <div
+        /*className=" mx-auto max-w-screen-md h-screen py-12"*/ /*className="grid grid-cols-3 justify-center items-center py-10 m-10 content-center"*/
+        className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center py-10 px-9"
+      >
+        <div className="mb-12 overflow-hidden m-10">
           <img
             alt="my-pic"
-            className="h-[32rem] w-full object-cover object-center"
+            className="rounded-full object-cover object-center h-[25rem] lg:h-[30rem]"
             src="../../src/C37AAC07-3D3A-455C-9A1B-DDCD8C6E701B_1_105_c.jpeg"
           />
-        </Card>
-        <Typography variant="h2" color="blue-gray" className="mb-2 ">
-          What is Material Tailwind
-        </Typography>
-        <Typography color="gray" className="font-normal overflow-hidden">
-          Can you help me out? you will get a lot of free exposure doing this
-          can my website be in english?. There is too much white space do less
-          with more, so that will be a conversation piece can you rework to make
-          the pizza look more delicious other agencies charge much lesser can
-          you make the blue bluer?. I think we need to start from scratch can my
-          website be in english?, yet make it sexy i&apos;ll pay you in a week
-          we don&apos;t need to pay upfront i hope you understand can you make
-          it stand out more?. Make the font bigger can you help me out? you will
-          get a lot of free exposure doing this that&apos;s going to be a chunk
-          of change other agencies charge much lesser. Are you busy this
-          weekend? I have a new project with a tight deadline that&apos;s going
-          to be a chunk of change. There are more projects lined up charge extra
-          the next time.
-        </Typography>
+        </div>
+        <div
+          /*className="col-span-2 text-left"8*/ className="w-full text-center lg:w-auto lg:text-left "
+        >
+          <Typography variant="h2" color="blue-gray" className="mb-2">
+            Hello
+          </Typography>
+          <Typography variant="h4" color="blue-gray" className=" mb-8">
+            A bit about me
+          </Typography>
+          <Typography color="gray" className="font-normal overflow-hidden mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            aperiam, quis perspiciatis labore hic iste dolor, nemo voluptatem,
+            beatae exercitationem libero quia assumenda totam magni cumque
+            repudiandae laborum voluptate ducimus!
+          </Typography>
+          <div>
+            <Button
+              style={{
+                border: "0.5px solid black",
+                letterSpacing: "2px",
+              }}
+              className=" bg-[#eea305] text-black rounded-full h-[8rem] w-[8rem] text-lg normal-case text-center hover:bg-white"
+            >
+              Resume
+            </Button>
+            <Button
+              style={{
+                border: "0.5px solid black",
+                letterSpacing: "2px",
+              }}
+              className=" bg-[#ff3b25] text-black rounded-full aspect-square h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white "
+            >
+              Projects
+            </Button>
+            <Button
+              style={{
+                border: "0.5px solid black",
+                letterSpacing: "2px",
+              }}
+              className="bg-[#80d8da] text-black rounded-full aspect-square h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white"
+            >
+              Contact
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   );
