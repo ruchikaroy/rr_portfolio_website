@@ -61,9 +61,9 @@ const StickyNavBar = () => {
             <Typography
               as="a"
               href="#"
-              className="mr-4 cursor-pointer py-1.5 font-medium ml-5"
+              className="mr-4 cursor-pointer py-1.5 font-bold ml-5"
             >
-              Portfolio
+              Ruchika Roy, Software Developer
             </Typography>
             <div className="flex items-center gap-4">
               <div className="mr-4 hidden lg:block">{navList}</div>
@@ -113,10 +113,9 @@ const StickyNavBar = () => {
           </MobileNav>
         </Navbar>
         <div className="flex items-center m-10 text-center">
-          <Button className="bg-[#eea305] text-black rounded-full p-3 mr-3"></Button>
-          <Typography color="blue-gray" className="text-xl font-wei">
+          {/* <Typography color="blue-gray" className="text-xl font-wei">
             Ruchika Roy, Software Developer
-          </Typography>
+          </Typography> */}
         </div>
 
         <div
@@ -155,6 +154,12 @@ const StickyNavBar = () => {
                   letterSpacing: "2px",
                 }}
                 className=" bg-[#eea305] text-black rounded-full h-[8rem] w-[8rem] text-lg normal-case text-center hover:bg-white"
+                onClick={() =>
+                  window.open(
+                    "https://stackoverflow.com/questions/56187772/creating-a-button-in-react-that-when-clicked-opens-a-webpage",
+                    "_self"
+                  )
+                }
               >
                 Resume
               </Button>
