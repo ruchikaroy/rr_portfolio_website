@@ -12,7 +12,7 @@ const Footer = () => {
           >
             Email
           </div>
-          <div className="mb-2 font-sans text-lg tracking-wide lg:ml-40">
+          <div className="mb-2 font-sans text-lg tracking-wide lg:ml-40 ">
             contactruchikaroy@gmail.com
           </div>
         </div>
