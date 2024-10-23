@@ -22,10 +22,8 @@ const Content = () => {
             A bit about me
           </Typography>
           <Typography color="gray" className="font-normal overflow-hidden mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            aperiam, quis perspiciatis labore hic iste dolor, nemo voluptatem,
-            beatae exercitationem libero quia assumenda totam magni cumque
-            repudiandae laborum voluptate ducimus!
+            I'm a junior software developer eager to establish myself in the
+            full stack web development space.
           </Typography>
           <div>
             <Button
@@ -54,15 +52,17 @@ const Content = () => {
                 Projects
               </Button>
             </Link>
-            <Button
-              style={{
-                border: "0.5px solid black",
-                letterSpacing: "2px",
-              }}
-              className="bg-[#80d8da] text-black rounded-full aspect-square h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white"
-            >
-              Contact
-            </Button>
+            <Link to="/contact">
+              <Button
+                style={{
+                  border: "0.5px solid black",
+                  letterSpacing: "2px",
+                }}
+                className="bg-[#80d8da] text-black rounded-full aspect-square h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white"
+              >
+                Contact
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

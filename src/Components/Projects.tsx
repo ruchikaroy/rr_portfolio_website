@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="text-center mt-12 mb-6">
         <Typography variant="h2">Projects</Typography>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-0 ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-items-center gap-0 ">
         <Card
           style={{ height: "510px" }}
           className="mt-6 w-96 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."

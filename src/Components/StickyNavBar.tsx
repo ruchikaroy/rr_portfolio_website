@@ -30,21 +30,36 @@ const StickyNavBar = () => {
         </Typography>
       </Link>
       <Typography variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#" className="flex items-center">
+        <a
+          href="https://drive.google.com/file/d/1aVABOWWdm-h1lZ85onhL2PRoyHcup0xI/view?usp=sharing"
+          target="blank"
+          className="flex items-center"
+        >
           Resume
         </a>
       </Typography>
-
-      <Typography variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#" className="flex items-center">
-          Projects
-        </a>
-      </Typography>
-      <Typography variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#" className="flex items-center">
-          Contact
-        </a>
-      </Typography>
+      <Link to="/projects">
+        <Typography
+          variant="small"
+          color="blue-gray"
+          className="p-1 font-normal"
+        >
+          <a href="#" className="flex items-center">
+            Projects
+          </a>
+        </Typography>
+      </Link>
+      <Link to="/contact">
+        <Typography
+          variant="small"
+          color="blue-gray"
+          className="p-1 font-normal"
+        >
+          <a href="#" className="flex items-center">
+            Contact
+          </a>
+        </Typography>
+      </Link>
     </div>
   );
 

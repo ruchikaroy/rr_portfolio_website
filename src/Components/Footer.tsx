@@ -3,13 +3,13 @@ import { Typography } from "@material-tailwind/react";
 const Footer = () => {
   return (
     <>
-      <div style={{ border: "solid 0.5px #c7c7c7" }} className="mx-10"></div>
+      <div
+        style={{ border: "solid 0.5px #c7c7c7" }}
+        className="mx-10 mt-20"
+      ></div>
       <div className=" grid grid-cols-1 lg:grid-cols-3 gap-4 m-10">
         <div>
-          <div
-            // style={{ border: "2px solid black" }}
-            className="mb-2 font-sans font-bold text-xl tracking-wider lg:ml-40"
-          >
+          <div className="mb-2 font-sans font-bold text-xl tracking-wider lg:ml-40">
             Email
           </div>
           <div className="mb-2 font-sans text-lg tracking-wide lg:ml-40 ">
