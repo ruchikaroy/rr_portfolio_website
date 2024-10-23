@@ -1,10 +1,4 @@
-import {
-  Card,
-  Input,
-  Checkbox,
-  Button,
-  Typography,
-} from "@material-tailwind/react";
+import { Card, Typography } from "@material-tailwind/react";
 
 const ContactForm = () => {
   return (
