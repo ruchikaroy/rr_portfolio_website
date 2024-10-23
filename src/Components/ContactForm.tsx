@@ -41,7 +41,7 @@ const ContactForm = () => {
           </Typography>
           <textarea
             name="message"
-            rows={10}
+            rows={5}
             className="text-md p-3 border border-2 border-blue-gray-200 rounded-md"
           ></textarea>
         </div>

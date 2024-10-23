@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div
         style={{ border: "solid 0.5px #c7c7c7" }}
-        className="mx-10 mt-20"
+        className="mx-10 mt-10"
       ></div>
       <div className=" grid grid-cols-1 lg:grid-cols-3 gap-4 m-10">
         <div>
