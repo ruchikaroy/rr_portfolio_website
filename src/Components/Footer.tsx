@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <>
       <div
-        style={{ borderTop: " solid 2px #c7c7c7" }}
-        className=" grid grid-cols-1 lg:grid-cols-3 gap-4 m-10 "
+        style={{ borderTop: " solid 2px #c7c7c7", marginTop: "50px" }}
+        className=" grid grid-cols-1 lg:grid-cols-3 gap-4 m-10  "
       >
-        <div>
+        <div className="mt-10">
           <div className="mb-2 font-sans font-bold text-xl tracking-wider lg:ml-40">
             Email
           </div>
@@ -15,7 +15,7 @@ const Footer = () => {
             contactruchikaroy@gmail.com
           </div>
         </div>
-        <div>
+        <div className="mt-10">
           <div className="mb-2 font-sans font-bold text-xl tracking-wider lg:ml-60">
             Github
           </div>
@@ -42,7 +42,7 @@ const Footer = () => {
             </Typography>
           </div>
         </div>
-        <div>
+        <div className="mt-10">
           <div className="mb-2 font-sans font-bold text-xl tracking-wider lg:ml-40">
             Linkedin
           </div>
