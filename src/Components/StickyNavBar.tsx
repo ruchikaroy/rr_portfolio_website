@@ -31,7 +31,7 @@ const StickyNavBar = () => {
       </Link>
       <Typography variant="small" color="blue-gray" className="p-1 font-normal">
         <a
-          href="https://drive.google.com/file/d/1aVABOWWdm-h1lZ85onhL2PRoyHcup0xI/view?usp=sharing"
+          href="https://drive.google.com/file/d/1eFM4MuKlg6PfojbLlR_5ZkOuWniEEuxA/view?usp=sharing"
           target="blank"
           className="flex items-center"
         >
@@ -66,7 +66,7 @@ const StickyNavBar = () => {
   return (
     <>
       <div className="-m-5 max-h-[768px] w-[calc(100% + 48px)] overflow-scroll">
-        <Navbar className="top-0 z-10 max-w-full rounded-none px-4 py-3 lg:px-8 lg:py-4">
+        <Navbar className=" sticky top-0 z-10 max-w-full rounded-none px-4 py-3 lg:px-8 lg:py-4">
           <div
             style={{ marginBottom: "-10px" }}
             className="flex items-center justify-between text-blue-gray-900"
