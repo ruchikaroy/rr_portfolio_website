@@ -34,7 +34,7 @@ const Content = () => {
               className=" bg-[#eea305] text-black rounded-full h-[8rem] w-[8rem] text-lg normal-case text-center hover:bg-white"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1aVABOWWdm-h1lZ85onhL2PRoyHcup0xI/view?usp=sharing",
+                  "https://drive.google.com/file/d/1eFM4MuKlg6PfojbLlR_5ZkOuWniEEuxA/view?usp=sharing",
                   "_blank"
                 )
               }
