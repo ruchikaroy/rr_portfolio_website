@@ -18,9 +18,6 @@ const Content = () => {
           <Typography variant="h2" color="blue-gray" className="mb-2">
             Hello
           </Typography>
-          {/* <Typography variant="h4" color="blue-gray" className=" mb-8">
-            A bit about me
-          </Typography> */}
           <Typography color="gray" className="font-normal overflow-hidden mb-8">
             I'm a junior software developer eager to establish myself in the
             full stack web development space.
@@ -47,7 +44,7 @@ const Content = () => {
                   border: "0.5px solid black",
                   letterSpacing: "2px",
                 }}
-                className=" bg-[#ff3b25] text-black rounded-full aspect-square h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white "
+                className=" bg-[#ff3b25] text-black rounded-full h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white "
               >
                 Projects
               </Button>
@@ -58,7 +55,7 @@ const Content = () => {
                   border: "0.5px solid black",
                   letterSpacing: "2px",
                 }}
-                className="bg-[#80d8da] text-black rounded-full aspect-square h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white"
+                className="bg-[#80d8da] text-black rounded-full h-[8rem] w-[8rem] text-lg ml-5 normal-case text-center hover:bg-white"
               >
                 Contact
               </Button>
