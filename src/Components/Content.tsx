@@ -18,9 +18,9 @@ const Content = () => {
           <Typography variant="h2" color="blue-gray" className="mb-2">
             Hello
           </Typography>
-          <Typography variant="h4" color="blue-gray" className=" mb-8">
+          {/* <Typography variant="h4" color="blue-gray" className=" mb-8">
             A bit about me
-          </Typography>
+          </Typography> */}
           <Typography color="gray" className="font-normal overflow-hidden mb-8">
             I'm a junior software developer eager to establish myself in the
             full stack web development space.
