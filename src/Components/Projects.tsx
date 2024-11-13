@@ -257,7 +257,7 @@ const Projects = () => {
             <Button
               onClick={() =>
                 window.open(
-                  "https://github.com/ruchikaroy/WhimsyDate",
+                  "https://northcoders.com/project-phase/whimsydate",
                   "_blank"
                 )
               }
