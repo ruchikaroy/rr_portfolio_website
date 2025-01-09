@@ -32,11 +32,11 @@ const Content = () => {
             where I learned industry-relevant skills and worked on hands-on
             projects.
             <br></br>
-            <br></br>I am motivated to build a future in the tech industry, not
-            only to create a fulfilling career for myself but also to contribute
-            to meaningful projects. I am eager to apply my dedication,
-            adaptability, and growing technical expertise to thrive in this
-            dynamic field.
+            <br></br>I’m excited to build a future in the tech industry, not
+            just to make a living, but to create impactful solutions and enjoy
+            the rewarding process of solving complex problems. The opportunity
+            to grow in a dynamic and ever-evolving field motivates me to keep
+            learning and improving every day.
           </Typography>
           <div>
             <Button
