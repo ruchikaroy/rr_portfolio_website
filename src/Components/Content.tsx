@@ -16,11 +16,27 @@ const Content = () => {
 
         <div className="w-full text-center lg:w-auto lg:text-left ">
           <Typography variant="h2" color="blue-gray" className="mb-2">
-            Hello
+            Hello! A bit about me...
           </Typography>
           <Typography color="gray" className="font-normal overflow-hidden mb-8">
-            I'm a junior software developer eager to establish myself in the
-            full stack web development space.
+            I began my professional journey in account management and
+            administrative roles, where I developed strong organizational and
+            problem-solving skills over nine years. However, a newfound passion
+            for technology inspired me to pivot my career toward software
+            development.
+            <br></br>
+            <br></br>Through self-study, I built a solid foundation in HTML,
+            CSS, and JavaScript, discovering how exciting and rewarding coding
+            can be. To deepen my expertise and accelerate my growth, I joined
+            the Software Development bootcamp at Northcoders in April 2024,
+            where I learned industry-relevant skills and worked on hands-on
+            projects.
+            <br></br>
+            <br></br>I am motivated to build a future in the tech industry, not
+            only to create a fulfilling career for myself but also to contribute
+            to meaningful projects. I am eager to apply my dedication,
+            adaptability, and growing technical expertise to thrive in this
+            dynamic field.
           </Typography>
           <div>
             <Button

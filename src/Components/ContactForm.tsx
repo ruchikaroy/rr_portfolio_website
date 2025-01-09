@@ -23,7 +23,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             required
-            className="text-md p-3 border border-2 border-blue-gray-200 rounded-md"
+            className="text-md p-3 border-2 border-blue-gray-200 rounded-md"
           />
           <Typography variant="h6" color="blue-gray" className="-mb-3">
             Your Email
@@ -31,7 +31,7 @@ const ContactForm = () => {
           <input
             type="email"
             name="email"
-            className="text-md p-3 border border-2 border-blue-gray-200 rounded-md"
+            className="text-md p-3 border-2 border-blue-gray-200 rounded-md"
             required
           />
         </div>
@@ -42,7 +42,7 @@ const ContactForm = () => {
           <textarea
             name="message"
             rows={5}
-            className="text-md p-3 border border-2 border-blue-gray-200 rounded-md"
+            className="text-md p-3 border-2 border-blue-gray-200 rounded-md"
           ></textarea>
         </div>
         <button
