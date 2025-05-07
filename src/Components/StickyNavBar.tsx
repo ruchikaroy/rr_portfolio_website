@@ -31,7 +31,7 @@ const StickyNavBar = () => {
       </Link>
       <Typography variant="small" color="blue-gray" className="p-1 font-normal">
         <a
-          href="https://drive.google.com/file/d/1eFM4MuKlg6PfojbLlR_5ZkOuWniEEuxA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1mtme7lR1ufFYaIqEvbg2svTwGHwyK6cY/view?usp=sharing"
           target="blank"
           className="flex items-center"
         >
